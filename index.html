@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Heavy Flow</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+	<!-- Custom Stylesheet -->
+	<link rel="stylesheet" href="./src/css/heavyflow.css"/>
+
+</head>
+<body ng-app="heavyFlow" ng-controller="heavyFlowCtrl">
+
+	<h1 id="title" class="centeredText">Heavy Flow</h1>
+	<h3 id="subtitle" class="centeredText">Cheers</h3>
+	<br/>
+
+	<div id="cheersListSection" ng-show="!displayCheerDetails">	
+
+		<div search-bar></div>
+		<div id="cheersTableContainer" cheers-table></div>
+	</div>
+
+	<div id="cheersDetailsSection" ng-show="displayCheerDetails" ng-cloak>
+		
+		<div id="cheerDetailsContainer" cheer-details></div>
+
+	</div>
+
+</body>
+
+<script type="text/javascript" src="./src/js/heavyflow.js"></script>
+<script type="text/javascript" src="./src/js/directives.js"></script>
+
+</html>

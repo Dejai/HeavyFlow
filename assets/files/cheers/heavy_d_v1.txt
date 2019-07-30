@@ -1,0 +1,4 @@
+*Cheerleader:* “D!”
+*Team response:* “Fence!”
+
+~(repeat until cheerleader stops saying “D!”)~

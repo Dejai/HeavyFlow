@@ -1,0 +1,4 @@
+*Cheerleader:* “Fire it up!”
+*Team response:* “Ready to Flow”
+
+~(repeat x3 minimum)~

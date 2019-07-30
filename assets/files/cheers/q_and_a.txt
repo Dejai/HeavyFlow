@@ -1,0 +1,6 @@
+*Cheerleader:* “What do we want?”
+*Team response:* “Heavy Flow!”
+*Cheerleader:* “When do we want it?”
+*Team response:* “Right now!”
+
+~(repeat x3 minimum)~

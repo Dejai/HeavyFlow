@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<config>
+	<cheers>
+		<cheer>
+			<name>Fire It Up!</name>
+			<cheertype>Scoring</cheertype>
+			<file>fire_it_up.txt</file>
+		</cheer>
+		<cheer>
+			<name>Heavy EverFlow!</name>
+			<cheertype>Huddle</cheertype>
+			<file>heavy_everflow.txt</file>
+			<inspiration>
+				<name>We Ready - by Archie Eversole</name>
+				<source>https://www.youtube.com/watch?v=ElFDlShmOng</source>
+			</inspiration>
+		</cheer>
+		<cheer>
+			<name>Heavy O! (short v1)</name>
+			<cheertype>Sideline</cheertype>
+			<file>heavy_o_v1.txt</file>
+		</cheer>
+		<cheer>
+			<name>Heavy O! (short v2)</name>
+			<cheertype>Sideline</cheertype>
+			<file>heavy_o_v2.txt</file>
+		</cheer>
+		<cheer>
+			<name>Heavy O! (extended)</name>
+			<cheertype>Sideline</cheertype>
+			<file>heavy_o_v3.txt</file>
+		</cheer>
+		<cheer>
+			<name>Heavy D!</name>
+			<cheertype>Sideline</cheertype>
+			<file>heavy_d_v1.txt</file>
+		</cheer>
+		<cheer>
+			<name>D-Line!</name>
+			<cheertype>Sideline</cheertype>
+			<file>d_line.txt</file>
+		</cheer>
+		<cheer>
+			<name>Maximum Protection!</name>
+			<cheertype>Sideline</cheertype>
+			<file>maximum_protection.txt</file>
+		</cheer>
+		<cheer>
+			<name>Flow Nation Army!</name>
+			<cheertype>Sideline</cheertype>
+			<file>flow_nation_army.txt</file>
+			<inspiration>
+				<name>Seven Nation Army - by The White Stripes</name>
+				<source>https://www.youtube.com/watch?v=0J2QdDbelmY</source>
+			</inspiration>
+		</cheer>
+		<cheer>
+			<name>Q&amp;A!</name>
+			<cheertype>Sideline</cheertype>
+			<file>q_and_a.txt</file>
+		</cheer>
+		<cheer>
+			<name>Spell It Out!</name>
+			<cheertype>Scoring</cheertype>
+			<file>spell_it_out.txt</file>
+		</cheer>
+		<cheer>
+			<name>Let's Flow!</name>
+			<cheertype>Huddle</cheertype>
+			<file>lets_flow.txt</file>
+			<inspiration>
+				<name>Blitzkreig Bop - by the Ramones</name>
+				<source>https://www.youtube.com/watch?v=skdE0KAFCEA</source>
+			</inspiration>
+		</cheer>
+		<cheer>
+			<name>Flow Count!</name>
+			<cheertype>Huddle</cheertype>
+			<file>flow_count.txt</file>
+		</cheer>
+		<cheer>
+			<name>Because ... We're Heavy!</name>
+			<cheertype>Huddle</cheertype>
+			<file>because_we_heavy.txt</file>
+		</cheer>
+		<cheer>
+			<name>Who Got That Flow?</name>
+			<cheertype>Huddle</cheertype>
+			<file>who_got_that_flow.txt</file>
+		</cheer>
+		<cheer>
+			<name>Flow On!</name>
+			<cheertype>Huddle</cheertype>
+			<file>flow_on.txt</file>
+			<inspiration>
+				<name>Float On - by the Modest Mouse</name>
+				<source>https://www.youtube.com/watch?v=CTAud5O7Qqk</source>
+			</inspiration>
+		</cheer>
+		<cheer>
+			<name>Give It To Me Flow Times!</name>
+			<cheertype>Huddle</cheertype>
+			<file>give_it_to_me.txt</file>
+		</cheer>
+		<cheer>
+			<name>Get Flow!</name>
+			<cheertype>Huddle</cheertype>
+			<file>get_flow.txt</file>
+			<inspiration>
+				<name>Get Low - by Lil Jon</name>
+				<source>https://www.youtube.com/watch?v=3-bkx6RmDZQ</source>
+			</inspiration>
+		</cheer>
+	</cheers>
+</config>

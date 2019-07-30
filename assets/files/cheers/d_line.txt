@@ -1,0 +1,6 @@
+*Cheerleader:* “D!”
+*Team response:* “Line!”
+
+~(repeat until cheerleader stops saying “D!”)~
+
+~(Note: Everyone should be alternating hip thrusts throughout)~

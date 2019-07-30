@@ -1,0 +1,6 @@
+*Cheerleader:* “Flow oh-oh-oh-oooh-ooooh!!”
+*Everyone:* “Flow oh-oh-oh-oooh-ooooh!!”
+
+~(repeat x4 minimum)~
+
+~(it might make most sense to do just before a pull)~

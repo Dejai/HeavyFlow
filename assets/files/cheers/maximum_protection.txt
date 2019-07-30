@@ -1,0 +1,6 @@
+*Cheerleader:* “Maximum!”
+*Team response:* “Protection!”
+*Cheerleader:* “Heavy!”
+*Team response:* “Flow!”
+
+~(repeat x3 minimum)~

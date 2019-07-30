@@ -1,0 +1,25 @@
+<span>{{cheerElements.length}} out of {{cheersArray.length}}</span>
+<br style="clear:both;"/>
+<table id="cheersTable">
+	<thead>
+		<tr>
+			<th data-ng-click="setSort('Name')">
+				Cheer Name
+				<span class="glyphicon glyphicon-triangle-top sortedAscending" ng-show=" sortValue == 'Name' && !sortReverse "></span>
+				<span class="glyphicon glyphicon-triangle-bottom sortedDescending" ng-show=" sortValue == '-Name' && sortReverse "></span>
+			</th>
+			<th data-ng-click="setSort('Type')">
+				Type
+				<span class="glyphicon glyphicon-triangle-top sortedAscending" ng-show=" sortValue == 'Type' && !sortReverse "></span>
+				<span class="glyphicon glyphicon-triangle-bottom sortedDescending" ng-show=" sortValue == '-Type' && sortReverse "></span></th>
+			<th>Details</th>
+		</tr>
+	</thead>
+	<tbody >
+		<tr ng-repeat="cheer in cheerElements = (cheersArray | filter: cheersFilter() | orderBy: sortValue)" ng-cloak>
+			<td class="cheerRow">{{cheer.Name | presentableName}}</td>
+			<td>{{cheer.Type | presentableName}}</td>
+			<td ><span ng-click="toggleCheerDetails($event)" id="{{cheer.ID}}">&#9776;</span></td>
+		</tr>
+	</tbody>
+</table>

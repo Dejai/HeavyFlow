@@ -1,0 +1,14 @@
+<button id="backButton" ng-click="toggleCheerDetails($event)"> &larr; Back</button>
+
+<div id="cheerDetailsInfo" ng-cloak>
+	<h3>Name: {{cheerName}}</h3>
+	<h5>Type: {{cheerType}}</h5>
+	<h5 ng-show="hasInspiration">Inspired by <a href="{{cheersInpsirationSource}}" target="_blank">{{cheersInpsirationName}}</a></h5>
+	<!-- <h5>Inspired by <a href="{{cheersInpsirationSource}}" target="_blank">{{cheersInpsirationName}}</a></h5> -->
+	<hr/>
+	<blockquote>
+		<p id="cheerDetails">
+			{{cheerContent}}
+		</p>
+	</blockquote>
+</div>

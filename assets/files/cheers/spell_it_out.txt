@@ -1,0 +1,4 @@
+*Cheerleader:* “H! E! A-V-Y!”
+*Team response:* “Flow Flow Flow!”
+
+~(repeat x3 minimum)~

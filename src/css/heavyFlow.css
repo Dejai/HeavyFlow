@@ -1,0 +1,43 @@
+
+
+/* Mobile Styling */
+
+	body { padding:1%; background-color:#39CCCC; }
+	
+	.centeredText { text-align:center; }
+
+	#title { font-family: "Arial, sans-serif"; font-style:italic; }
+
+	/* The Table */
+	#cheersTable { width:100%; overflow:hidden; margin-top:2%; }
+	#cheersTable thead { border-bottom: 2px solid black; border-top: 2px solid black; }
+	#cheersTable tbody { overflow:scroll; }
+	#cheersTable thead tr th:nth-child(1), #cheersTable thead tr th:nth-child(2) { cursor: pointer; }
+	#cheersTable tr th:nth-child(3), #cheersTable tr td:nth-child(3) { text-align:center; }
+	#cheersTable tbody tr td:nth-child(3) { cursor: pointer; }
+	#cheersTable tbody tr { border-bottom: 1px solid lightgray; width:100%; }
+	#cheersTable tbody td { padding-top:3%; padding-bottom:3%; }
+	#cheersTable tbody tr:hover { background-color: lightgray; cursor:pointer; }
+
+	/*.sortedArrow { color:orange; }*/
+	.sortedAscending { color: #F012BE; }
+	.sortedDescending { color: #FF851B; }
+
+	/* The Back Button */
+	#backButton { border:1px solid gray; background-color:gray; color:white; }
+
+
+
+
+/* ------------------------ MEDIA QUERIES ------------------------ */
+
+/*Medium devices (tablets, 768px and up)*/
+@media screen and (min-width:768px) and (min-height:1024px){
+
+	body { width:30%; margin:auto; }
+}
+
+
+@media screen and (min-width:1024px){ 
+	body { width:30%; margin:auto; }
+}

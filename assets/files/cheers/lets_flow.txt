@@ -1,0 +1,6 @@
+*Cheerleader:* "Hey Ho!”
+*Team response:* “Let’s Flow!”
+
+~(repeat x3 minimum)~
+
+~Include a steady clap for rhythmic excitement~
